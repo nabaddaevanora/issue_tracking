@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #ccc; 
+  height: 100%;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -22,12 +25,38 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-area {
+  max-height: 200px;
+  vertical-align: top;
+  width: 50%;
+  height: 150px;
+  max-width: 100%;
 }
+.header-list ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 25px;
+
+}
+.header-list ul li a{
+  text-decoration: none;
+  background-color: #00cc00;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 5px;
+
+}
+
+.body-wrapper{
+  width: 80%;
+  
+  background-color: #bbb;
+  margin-left: 10%;
+}
+
+table input {
+height: 30px;
+width: 300px;
+border-radius: 20px;
+}
+
